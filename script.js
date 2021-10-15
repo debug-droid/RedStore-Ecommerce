@@ -1,4 +1,4 @@
-var MenuItems = document.getElementById("MenuItems");
+let MenuItems = document.getElementById("MenuItems");
 
       MenuItems.style.maxHeight = "0px";
 
