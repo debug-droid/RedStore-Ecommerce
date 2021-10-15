@@ -2,7 +2,7 @@ let MenuItems = document.getElementById("MenuItems");
 
       MenuItems.style.maxHeight = "0px";
 
-      function menutoggle() {
+      let menutoggle = () => {
         if(MenuItems.style.maxHeight == "0px") {
           MenuItems.style.maxHeight = "200px"
         } else {
